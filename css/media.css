@@ -1,0 +1,51 @@
+@media (min-width: 1430px) {
+  .media-row {
+    max-width: 1370px;
+  }
+  .media {
+    max-width: 1370px;
+  }
+  /* 首页 开始 */
+  .navbar-center-max {
+    display: block;
+  }
+  .navbar-center-min {
+    display: none;
+  }
+  /* 首页 结束 */
+}
+@media (min-width: 1150px) and (max-width: 1429px) {
+  .media-row {
+    max-width: 1090px;
+  }
+  .media {
+    max-width: 1090px;
+  }
+  /* 首页 开始 */
+  .navbar-center-max {
+    max-width: 1090px;
+    display: block;
+  }
+  .navbar-center-min {
+    display: none;
+  }
+  /* 首页 结束 */
+}
+@media (max-width: 1149px) {
+  .media-row {
+    width: 810px;
+  }
+  .media {
+    width: 810px;
+  }
+  /* 首页 开始 */
+  .navbar-center-max {
+    display: block;
+    max-width: 810px;
+  }
+  .navbar-center-min {
+    display: none;
+    max-width: 810px;
+  }
+  /* 首页 结束 */
+}
