@@ -117,17 +117,28 @@ body {
 .information-list > ul {
   position: relative;
   min-height: 450px;
+  zoom: 1;
+}
+.information-list > ul:before,
+.information-list > ul:after {
+  content: " ";
+  display: table;
+}
+.information-list > ul:after {
+  clear: both;
 }
 .information-list > ul .item {
   width: 250px;
   background: #f5f5f5;
+  float: left;
+  margin-right: 30px;
   margin-bottom: 30px;
-  position: absolute;
-  top: 0;
-  left: 0;
   -webkit-box-shadow: 0px 0px 2px 1px #ceced6;
   -moz-box-shadow: 0px 0px 2px 1px #ceced6;
   box-shadow: 0px 0px 2px 1px #ceced6;
+}
+.information-list > ul .item:nth-child(5n){
+  margin-right: 0;
 }
 .information-list > ul .item .graphic {
   width: 100%;
@@ -617,7 +628,7 @@ body {
 .footer {
   width: 100%;
   height: 140px;
-  background: url('../images/footer.png') center center no-repeat;
+  background: url('../images/footer.jpg') center center no-repeat;
   margin-top: 30px;
 }
 .footer .grad {

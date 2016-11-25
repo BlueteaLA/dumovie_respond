@@ -14,7 +14,7 @@
             $('html,body').animate({scrollTop:0},1000);
         });
         /* 懒加载 */
-        $("img.lazyload.first").lazyload({
+        $("img.lazyload").lazyload({
             effect:"fadeIn",
             failurelimit:10,
             threshold:100
