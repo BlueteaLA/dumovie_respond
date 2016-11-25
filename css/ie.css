@@ -1,0 +1,25 @@
+.video-list > ul .item .graphic h4,
+.information-list > ul .item .graphic .tag {
+  background: #7f7f7f;
+}
+.navbar {
+  background: #262626;
+}
+.navbar .navbar-center-max .list ul li.active {
+  background: #515151;
+}
+.navbar .navbar-center-max .list ul li:hover {
+  background: #515151;
+}
+.navbar .navbar-center-max .list ul li.appdownload .app-code {
+  background: #595959;
+}
+.banner-box .slide-btn-box .slide-btn {
+  border-bottom: 6px solid #3c3c3c;
+}
+
+.video-list > ul .item,
+.information-list > ul .item {
+    box-sizing: border-box;
+    border: 1px solid #ceced6;
+}

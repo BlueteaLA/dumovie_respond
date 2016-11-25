@@ -117,6 +117,7 @@ body {
 .information-list > ul {
   position: relative;
   min-height: 450px;
+  margin-right: -30px;
   zoom: 1;
 }
 .information-list > ul:before,
@@ -136,9 +137,6 @@ body {
   -webkit-box-shadow: 0px 0px 2px 1px #ceced6;
   -moz-box-shadow: 0px 0px 2px 1px #ceced6;
   box-shadow: 0px 0px 2px 1px #ceced6;
-}
-.information-list > ul .item:nth-child(5n){
-  margin-right: 0;
 }
 .information-list > ul .item .graphic {
   width: 100%;
